@@ -90579,7 +90579,7 @@ s=s==null?null:s.e==="super_admin"
 return s===!0},
 gatN(){var s=this.R8
 if(s==null)return!1
-return A.aMk(s,"1.3.7")},
+return A.aMk(s,"1.3.8")},
 fb(a){var s=this.b
 s=s==null?null:s.fb(a)
 return s===!0},
@@ -91783,15 +91783,16 @@ if(!k.a.c.gd4())m.push(B.d3)
 o.push(new A.cC(A.bh(m,B.N,B.l,B.n),B.ab,j))
 o.push(B.ac)
 q=A.b([B.SF],q)
-if(h||i.b.a===0)q.push(B.Jb)
+if(h)q.push(B.Jb)
 else{h=i.b
-n=A.q(h).i("dG<1,2>")
+if(h.a!==0){n=A.q(h).i("dG<1,2>")
 n=A.qb(new A.dG(h,n),new A.akk(k),n.i("o.E"),t.QX)
 h=A.Y(n,A.q(n).i("o.E"))
-q.push(A.vS(B.ck,h,B.dN,6,6))}q.push(B.bY)
-q.push(A.a1(r!=null?"* Lowest 3D Number: "+r:"No pending 3D bets in this round.",j,j,j,j,j,j))
+q.push(A.vS(B.ck,h,B.dN,6,6))}}q.push(B.bY)
+h=r!=null
+q.push(A.a1(h?"* Lowest 3D Number: "+r:"No pending 3D bets in this round.",j,j,j,j,j,j))
 q.push(B.af)
-q.push(A.fG(B.fe,"DECLARE LOWEST 3D NUMBER",k.a.c.gd4()?k.ga7x():j,B.j))
+q.push(A.fG(B.fe,"DECLARE LOWEST 3D NUMBER",k.a.c.gd4()&&h?k.ga7x():j,B.j))
 if(!k.a.c.gd4())q.push(B.d3)
 o.push(new A.cC(A.bh(q,B.N,B.l,B.n),B.ab,j))
 return A.bh(o,B.N,B.l,B.n)},

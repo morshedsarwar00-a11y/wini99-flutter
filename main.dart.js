@@ -27685,7 +27685,7 @@ pm(a){var s,r,q,p,o=t.P
 if(o.b(a)){for(s=["data","draw","settings","user","result"],r=J.aI(a),q=0;q<5;++q){p=r.h(a,s[q])
 if(o.b(p))return p}return a}return A.E(t.N,t.z)},
 lo(a){var s,r,q,p,o,n=t.P
-if(n.b(a)){for(s=["items","users","data","results","rows","bets","batches","tickets"],r=t.j,q=J.aI(a),p=0;p<8;++p){o=q.h(a,s[p])
+if(n.b(a)){for(s=["items","users","data","results","rows","bets","batches","tickets","draws"],r=t.j,q=J.aI(a),p=0;p<9;++p){o=q.h(a,s[p])
 if(r.b(o)){s=J.aB0(o,n)
 n=A.Z(s,s.$ti.i("p.E"))
 return n}}if(J.k8(A.pm(a))&&!q.aB(a,"data"))return A.b([],t.H7)}return A.b([],t.H7)},
@@ -93158,7 +93158,7 @@ s=s==null?null:s.e==="super_admin"
 return s===!0},
 gawn(){var s=this.RG
 if(s==null)return!1
-return A.aPj(s,"1.4.31")},
+return A.aPj(s,"1.4.32")},
 h6(a){var s=this.b
 s=s==null?null:s.h6(a)
 return s===!0},
@@ -94214,7 +94214,7 @@ if(l)m.push(n.$4$active$icon$label$onTap(!1,B.Li,"Log in",new A.arR(r)))
 if(s)m.push(n.$4$active$icon$label$onTap(!1,B.Lw,"Change Password",new A.arS(r)))
 if(s)m.push(n.$4$active$icon$label$onTap(!1,B.Lj,"Logout",new A.arT(r)))
 m.push(B.X4)
-m.push(new A.b0(B.K9,A.a_("Version 1.4.31",q,q,q,q,B.YK,q,q),q))
+m.push(new A.b0(B.K9,A.a_("Version 1.4.32",q,q,q,q,B.YK,q,q),q))
 return new A.LD(B.H6,280,A.Pc(!0,A.rw(A.ba(m,B.K,B.l,B.m),q),B.b7,!0),q)},
 am8(a,b){var s,r,q,p=null,o=A.b([A.cv(A.a_("Signed in as "+b.ghS(0)+" \xb7 "+b.gLm(),p,B.av,p,p,B.Yj,p,p))],t.p),n=b.w
 if(n!=null){s=n?B.fJ.eR(0.15):B.fI.eR(0.15)

@@ -93334,7 +93334,7 @@ case 14:return"no screen lock set \u2014 set a PIN, pattern or password first"
 default:return"biometrics unavailable on this device"}},
 gax2(){var s=this.p
 if(s==null)return!1
-return A.aPY(s,"1.4.46")},
+return A.aPY(s,"1.4.47")},
 h6(a){var s=this.d
 s=s==null?null:s.h6(a)
 return s===!0},
@@ -94722,7 +94722,7 @@ if(m){l=q.y?"Face / fingerprint sign-in: On":"Face / fingerprint sign-in"
 n.push(o.$4$active$icon$label$onTap(!1,B.q3,l,new A.asd(s,a)))}if(m)n.push(o.$4$active$icon$label$onTap(!1,B.L9,"Logout",new A.ase(s)))
 n.push(B.WU)
 if(q.c.gjI()!=null){q=q.ax
-q=q!=null?"Version 1.4.46 \xb7 Wrapper "+q:"Version 1.4.46 \xb7 Wrapper: old APK \u2014 update it"}else q="Version 1.4.46"
+q=q!=null?"Version 1.4.47 \xb7 Wrapper "+q:"Version 1.4.47 \xb7 Wrapper: old APK \u2014 update it"}else q="Version 1.4.47"
 n.push(new A.b1(B.K2,A.a_(q,r,r,r,r,B.YC,r,r),r))
 return new A.LP(B.H3,280,A.Pg(!0,A.rB(A.b6(n,B.L,B.l,B.m),r),B.b8,!0),r)},
 amM(a,b){var s,r,q,p=null,o=A.b([A.cw(A.a_("Signed in as "+b.ghR(0)+" \xb7 "+b.gLK(),p,B.au,p,p,B.Yb,p,p))],t.p),n=b.w

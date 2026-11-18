@@ -93261,7 +93261,7 @@ s=s==null?null:s.e==="super_admin"
 return s===!0},
 gawQ(){var s=this.L
 if(s==null)return!1
-return A.aPu(s,"1.4.41")},
+return A.aPu(s,"1.4.42")},
 h6(a){var s=this.d
 s=s==null?null:s.h6(a)
 return s===!0},
@@ -94573,7 +94573,7 @@ if(m)n.push(o.$4$active$icon$label$onTap(!1,B.Lh,"Change Password",new A.as_(s))
 if(m){q=q.y?"Face / fingerprint sign-in: On":"Face / fingerprint sign-in"
 n.push(o.$4$active$icon$label$onTap(!1,B.pW,q,new A.as0(s,a)))}if(m)n.push(o.$4$active$icon$label$onTap(!1,B.L5,"Logout",new A.as1(s)))
 n.push(B.WJ)
-n.push(new A.b1(B.JY,A.a_("Version 1.4.41",r,r,r,r,B.Yq,r,r),r))
+n.push(new A.b1(B.JY,A.a_("Version 1.4.42",r,r,r,r,B.Yq,r,r),r))
 return new A.LH(B.GX,280,A.Pa(!0,A.ru(A.b8(n,B.J,B.l,B.m),r),B.b7,!0),r)},
 amB(a,b){var s,r,q,p=null,o=A.b([A.cw(A.a_("Signed in as "+b.ghR(0)+" \xb7 "+b.gLE(),p,B.az,p,p,B.Y_,p,p))],t.p),n=b.w
 if(n!=null){s=n?B.fH.fh(0.15):B.fG.fh(0.15)
@@ -95412,7 +95412,7 @@ if((r==null?o:r.e)==="agent")s.push(B.a1E)
 s.push(B.a8)
 s.push(B.a1D)
 s.push(B.b2)
-r=A.cw(A.jM(p.p1,B.LR,o,o,o,!1,o,new A.alJ(p),!1,o,B.ay))
+r=A.cw(A.jM(p.p1,B.LO,o,o,o,!1,o,new A.alJ(p),!1,o,B.ay))
 q=p.a.c.x1?o:p.gajx()
 s.push(A.ce(A.b([r,B.bl,A.iv(B.a2m,q,A.iw(o,o,B.bH,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o))],n),B.A,B.l,B.m,0))
 if(p.a.c.x1)s.push(B.Sn)
@@ -95656,7 +95656,7 @@ s.a=null
 return new A.rw(new A.amo(s,this.a,this.b),null)},
 $S:568}
 A.amo.prototype={
-$2(a,b){var s=null,r=A.a_("Reset password for "+this.b.ghR(0)+"?",s,s,s,s,s,s,s),q=this.c,p=t.p,o=A.b([B.a1P,B.ab,A.jM(q,B.LQ,s,s,s,!0,s,s,!1,s,B.ay)],p),n=this.a,m=n.a
+$2(a,b){var s=null,r=A.a_("Reset password for "+this.b.ghR(0)+"?",s,s,s,s,s,s,s),q=this.c,p=t.p,o=A.b([B.a1P,B.ab,A.jM(q,B.LR,s,s,s,!0,s,s,!1,s,B.ay)],p),n=this.a,m=n.a
 if(m!=null)J.aEV(o,A.b([B.a8,A.a_(m,s,s,s,s,B.je,s,s)],p))
 o=A.b8(o,B.J,B.l,B.b9)
 return A.po(A.b([A.dq(B.jf,new A.amk(a),s),A.dq(B.a2b,new A.aml(n,q,b,a),s)],p),o,r)},
@@ -96390,7 +96390,7 @@ if(o==null)o="\u2014"
 n=i?l:j.c
 if(n==null)n="\u2014"
 n=A.a_("Agent: "+o+" ("+n+")",l,l,l,l,l,l,l)
-o=A.jM(m.f,B.LO,l,l,l,!1,l,l,!1,l,B.ay)
+o=A.jM(m.f,B.LP,l,l,l,!1,l,l,!1,l,B.ay)
 m.a.toString
 i=i?l:j.r
 s.push(new A.cM(A.b8(A.b([B.UE,n,B.a8,o,B.a8,A.a_("Your balance: "+A.cX(i==null?0:i)+" (agent bets are charged to the player)",l,l,l,l,l,l,l)],k),B.aV,B.l,B.m),B.ag,l))
@@ -96399,7 +96399,7 @@ s.push(A.AS(new A.anc(m,p)))
 return A.ru(A.ha(new A.dN(B.nx,new A.b1(B.fh,A.b8(s,B.J,B.l,B.m),l),l),l,l),l)},
 akM(a){var s=this,r=null,q=A.Rz(A.a9M(10,new A.an7(s),!0,t.l),8,8),p=A.a_("Bet Amount",r,r,r,r,B.ac,r,r),o=A.cw(A.jM(s.r,B.q4,r,B.bm,r,!1,r,r,!1,A.aEd().$2$color$fontSize(B.aa,16),B.at)),n=a||s.e?r:new A.an8(s),m=t.p
 return new A.cM(A.b8(A.b([B.UT,B.a1i,B.bN,q,B.ab,p,B.b2,A.ce(A.b([o,B.bl,A.iv(B.a1G,n,A.iw(r,r,B.o1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r))],m),B.A,B.l,B.m,0)],m),B.J,B.l,B.m),B.ag,r)},
-alN(a){var s=this,r=null,q=A.jM(s.w,B.LP,r,B.bm,3,!1,r,r,!1,r,B.ay),p=A.a_("Bet Amount",r,r,r,r,B.ac,r,r),o=A.cw(A.jM(s.x,B.q4,r,B.bm,r,!1,r,r,!1,A.aEd().$2$color$fontSize(B.aa,16),B.at)),n=a||s.e?r:new A.anb(s),m=t.p
+alN(a){var s=this,r=null,q=A.jM(s.w,B.LQ,r,B.bm,3,!1,r,r,!1,r,B.ay),p=A.a_("Bet Amount",r,r,r,r,B.ac,r,r),o=A.cw(A.jM(s.x,B.q4,r,B.bm,r,!1,r,r,!1,A.aEd().$2$color$fontSize(B.aa,16),B.at)),n=a||s.e?r:new A.anb(s),m=t.p
 return new A.cM(A.b8(A.b([B.UU,B.a2p,B.b2,q,B.a8,p,B.b2,A.ce(A.b([o,B.bl,A.iv(B.a1Y,n,A.iw(r,r,B.oM,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r))],m),B.A,B.l,B.m,0),B.bN,B.a1J],m),B.J,B.l,B.m),B.ag,r)},
 aiO(){var s=this,r=A.b([B.UH,B.a2v,B.a8],t.p)
 if(J.ea(s.a.c.go))r.push(B.Ka)
@@ -101551,11 +101551,11 @@ B.LM=new A.lX("\ufffc",null,null,null,!0,!0,B.aP)
 B.LN=new A.AC(null,null,null,null,null,null,null,null,null,B.pM,B.nM,!1,null,!1,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,!1,null,null)
 B.fM=new A.fh(4,B.eR,B.eS)
 B.q4=new A.kA(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.fM,!0,null,null,null,null)
-B.LO=new A.kA(null,null,null,"Player username / ID (stake is taken from the player)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.fM,!0,null,null,null,null)
-B.LP=new A.kA(null,null,null,null,null,null,null,null,null,null,"000",null,null,null,null,null,!0,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"",null,null,null,null,null,null,null,null,null,null,null,B.fM,!0,null,null,null,null)
-B.LQ=new A.kA(null,null,null,"New password (optional)",null,null,null,null,null,null,"Min 8 characters, 1 letter + 1 number",null,null,null,null,null,!0,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.fM,!0,null,null,null,null)
+B.LO=new A.kA(null,null,null,null,null,null,null,null,null,null,"Username or ticket no.",null,null,null,null,null,!0,!0,null,null,null,null,null,null,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.fM,!0,null,null,null,null)
+B.LP=new A.kA(null,null,null,"Player username / ID (stake is taken from the player)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.fM,!0,null,null,null,null)
+B.LQ=new A.kA(null,null,null,null,null,null,null,null,null,null,"000",null,null,null,null,null,!0,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"",null,null,null,null,null,null,null,null,null,null,null,B.fM,!0,null,null,null,null)
+B.LR=new A.kA(null,null,null,"New password (optional)",null,null,null,null,null,null,"Min 8 characters, 1 letter + 1 number",null,null,null,null,null,!0,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.fM,!0,null,null,null,null)
 B.a5U=new A.kA(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.LR=new A.kA(null,null,null,null,null,null,null,null,null,null,"Username or WINI99-TXN-...",null,null,null,null,null,!0,!0,null,null,null,null,null,null,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.fM,!0,null,null,null,null)
 B.LT=new A.cT(0.25,0.5,B.O)
 B.Ie=new A.dl(0.1,0,0.45,1)
 B.LU=new A.cT(0.7038888888888889,1,B.Ie)

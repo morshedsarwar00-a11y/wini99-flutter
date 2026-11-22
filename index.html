@@ -18,6 +18,11 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <!-- 2026-11-22 (v1.4.93): the standard mobile viewport meta was
+       missing entirely — without it some WebViews fall back to a
+       wide layout viewport. No viewport-fit=cover on purpose: the
+       page must NOT extend into the notch / system-nav areas. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="description" content="A new Flutter project.">
 
   <!-- iOS meta tags & icons -->

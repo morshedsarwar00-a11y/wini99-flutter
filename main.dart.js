@@ -97105,7 +97105,7 @@ s=s==null?null:s.e==="super_admin"
 return s===!0},
 gaC0(){var s=this.aO
 if(s==null)return!1
-return A.aLf(s,"1.5.0")},
+return A.aLf(s,"1.5.1")},
 ga37(){var s,r=this.dn
 if(r==null)return!1
 s=this.ay
@@ -99472,7 +99472,7 @@ ajG(){var s,r=this.a.c,q=r.f8
 if(q!=null)for(r=J.bb(r.k2);r.u();){s=r.gR(r)
 if(s.a===q){r=s.d
 if(!(r.length!==0)){r=s.c
-r=r.length!==0?r:s.b}return"Lenden \u2014 "+r}}return"Lenden"},
+r=r.length!==0?r:s.b}return"Transaction \u2014 "+r}}return"Transaction"},
 Uk(a){var s,r,q,p,o,n,m=t.p,l=A.a([],m)
 for(s=0;s<4;s=r){r=s+2
 q=B.b.cB(a,s,B.f.dH(r,0,4))
@@ -99519,7 +99519,7 @@ o=n?k:o.c
 return A.ae(A.a([q,B.ao,r,B.L,new A.bB(s,B.R,k),B.L,new A.bB(A.ae(A.a([B.XY,m,A.M("Today's Triple (3D) Winner: "+(o==null?"\u2014":o)+" (950x Return)",k,k,k,k,k,k,k,k)],p),B.o,B.h,B.i),B.R,k)],p),B.r,B.h,B.i)},
 acG(){var s=t.WD
 s=A.U(new A.S(B.PP,new A.ap7(this),s),s.i("ao.E"))
-return new A.bB(A.ae(A.a([B.Xy,B.a5r,B.aX,B.a6i,B.L,A.aob(s,0,6)],t.p),B.a_,B.h,B.i),B.R,null)},
+return new A.bB(A.ae(A.a([B.Xy,B.a5s,B.aX,B.a6i,B.L,A.aob(s,0,6)],t.p),B.a_,B.h,B.i),B.R,null)},
 adA(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1=this,a2=null,a3=a1.a.c.ok,a4=a3==null,a5=a4?a2:a3.a
 if(a5==null)a5=A.bU(11,0,!1,t.S)
 s=a4?a2:a3.gayw()
@@ -99622,7 +99622,7 @@ j=A.bt(n.JH(n.p4,"e.g. 14:30","HH:MM"),1)
 p=n.a.c.gb2()?new A.aol(n):m
 p=A.iw(B.a4o,p,A.ix(m,m,B.aU,m,m,m,m,m,m,m,m,m,B.q7,m,m,m,m,m,m,m))
 o=n.a.c.gb2()?new A.aom(n):m
-l.push(A.b7(A.a([j,B.aD,p,B.aD,A.agj(!1,B.a5x,m,m,m,m,m,m,o,m,A.PC(m,m,m,m,m,m,m,m,m,m,m,m,B.q7,m,m,m,m,m,m,m))],q),B.o,B.h,B.i,0))
+l.push(A.b7(A.a([j,B.aD,p,B.aD,A.agj(!1,B.a5y,m,m,m,m,m,m,o,m,A.PC(m,m,m,m,m,m,m,m,m,m,m,m,B.q7,m,m,m,m,m,m,m))],q),B.o,B.h,B.i,0))
 if(i==null)l.push(B.V_)
 if(!n.a.c.gb2())l.push(B.ba)
 return new A.bB(A.ae(l,B.r,B.h,B.i),B.R,m)},
@@ -100227,7 +100227,7 @@ B.b.J(r,J.dF(p.a.c.ak,p.gQM(),t.l))
 r.push(A.bR(!1,B.D4,o,o,o,o,o,o,new A.aoy(p),o,o))
 B.b.J(s,r)}s=A.ae(s,B.r,B.h,B.i)
 r=A.a([B.XF,B.a4X],n)
-if(!p.a.c.gb2())r.push(B.a5n)
+if(!p.a.c.gb2())r.push(B.a5o)
 r.push(B.E)
 if(J.el(p.a.c.U))r.push(B.LQ)
 else B.b.J(r,J.dF(p.a.c.U,new A.aoz(p),t.l))
@@ -100300,7 +100300,7 @@ m=A.b7(A.a([m,A.bR(!1,B.a6k,f,f,f,f,f,f,k.gb2()?new A.aoE(g):f,f,f)],j),B.o,B.h,
 i=g.fy
 k=g.a.c
 h=k.gb2()?new A.aoF(g):f
-e=A.a([B.Y_,B.a5B,B.E,s,e,r,q,p,B.a68,o,B.E,B.XT,B.a5t,B.E,n,l,m,B.aX,new A.Sr(i,h,B.a5K,B.a4R,f),B.E,A.hj(B.c4,"SAVE SETTINGS",k.gb2()?new A.aoG(g):f,B.j)],j)
+e=A.a([B.Y_,B.a5B,B.E,s,e,r,q,p,B.a68,o,B.E,B.XT,B.a5u,B.E,n,l,m,B.aX,new A.Sr(i,h,B.a5K,B.a4R,f),B.E,A.hj(B.c4,"SAVE SETTINGS",k.gb2()?new A.aoG(g):f,B.j)],j)
 if(!g.a.c.gb2())e.push(B.ba)
 e.push(B.E)
 s=g.a.c
@@ -100339,7 +100339,7 @@ r.push(new A.as(B.iv,A.M("Saved: "+q+o,m,m,m,m,B.a4,m,m,m),m))}r.push(A.hj(B.c4,
 if(!n.a.c.gb2())r.push(B.ba)
 return new A.bB(A.ae(r,B.r,B.h,B.i),B.R,m)},
 abj(){var s=this,r=s.JI(s.p1,"Current password",!0),q=s.JI(s.p2,"New password",!0),p=s.JI(s.p3,"Confirm new password",!0)
-r=A.a([B.XZ,B.a5q,B.E,r,q,p,A.hj(B.c4,"CHANGE PASSWORD",s.a.c.gb2()?new A.aoI(s):null,B.j)],t.p)
+r=A.a([B.XZ,B.a5r,B.E,r,q,p,A.hj(B.c4,"CHANGE PASSWORD",s.a.c.gb2()?new A.aoI(s):null,B.j)],t.p)
 if(!s.a.c.gb2())r.push(B.ba)
 return new A.bB(A.ae(r,B.r,B.h,B.i),B.R,null)},
 aoU(){var s=J.fz(this.a.c.k2,new A.aqn()),r=A.U(s,s.$ti.i("u.E"))
@@ -100410,7 +100410,7 @@ B.b.J(m,new A.S(B.rp,new A.apL(o,q,s,a),t.vr))
 m.push(B.E)
 m.push(A.hj(B.c4,"SAVE PERMISSIONS",o.a.c.gb2()&&!s?new A.apM(o,a,q):n,B.j))
 m.push(B.dy)
-m.push(B.a5g)
+m.push(B.a5h)
 m.push(B.aX)
 m.push(B.a55)
 m.push(B.E)
@@ -100932,7 +100932,7 @@ $S:128}
 A.apq.prototype={
 $2(a,b){var s=null,r=this.a,q=t.p
 r=A.ae(A.a([A.b7(A.a([A.fX(s,s,s,B.qX,s,s,new A.apm(r,b),s,s,s,s),A.M(""+r.a,s,s,s,s,B.a36,s,s,s),A.fX(s,s,s,B.qV,s,s,new A.apn(r,b),s,s,s,s)],q),B.o,B.hf,B.i,0),B.E,A.aMJ(2.2,A.rx(12,new A.apo(r,this.b,a),!0,t.l),3,8,8,s,s,!0)],q),B.o,B.h,B.al)
-return A.hD(A.a([A.bR(!1,B.a5h,s,s,s,s,s,s,new A.app(a),s,s)],q),r,s,s,B.a4K,s)},
+return A.hD(A.a([A.bR(!1,B.a5i,s,s,s,s,s,s,new A.app(a),s,s)],q),r,s,s,B.a4K,s)},
 $S:125}
 A.apm.prototype={
 $0(){return this.b.$1(new A.apl(this.a))},
@@ -101766,7 +101766,7 @@ return""+A.cv(s)+" "+B.cC[A.bC(s)-1]+" "+B.c.cp(B.f.k(A.p9(s)),2,"0")+":"+B.c.cp
 H(a){var s,r,q,p=this,o=null
 if(!p.a.c.gb2())return B.V1
 s=t.p
-r=A.a([B.BH,B.a5z,B.E],s)
+r=A.a([B.BH,B.a5A,B.E],s)
 if(p.e)r.push(B.oB)
 else{q=p.f
 if(q!=null)r.push(A.ae(A.a([A.M(q,o,o,o,o,B.fh,o,o,o),B.E,A.bR(!1,B.D0,o,o,o,o,o,o,p.gIu(),o,o)],s),B.r,B.h,B.i))
@@ -102019,7 +102019,7 @@ r=s?B.pj:B.oI
 q=A.bx(8)
 p=s?"PENDING":"READ"
 m=A.a([l,B.jF,A.ae(A.a([k,B.d3,A.bG(o,A.M(p,o,o,o,o,A.db(o,o,s?B.p6:B.pl,o,o,o,o,o,o,o,o,10,o,o,B.J,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),B.n,o,o,new A.bf(r,o,o,q,o,o,B.G),o,o,o,B.qa,o,o,o)],m),B.dg,B.h,B.i)],m)
-if(s)m.push(A.bR(!1,B.a5i,o,o,o,o,o,o,new A.ayf(n,a),o,A.xa(o,o,o,o,o,o,o,o,o,o,o,B.K,B.qb,o,o,o,o,B.dr,o,o)))
+if(s)m.push(A.bR(!1,B.a5j,o,o,o,o,o,o,new A.ayf(n,a),o,A.xa(o,o,o,o,o,o,o,o,o,o,o,B.K,B.qb,o,o,o,o,B.dr,o,o)))
 m.push(A.fX(B.bl,B.dI,o,B.qU,o,o,new A.ayg(n,a),B.bf,o,o,"Delete"))
 return A.fp(!1,o,!0,A.bG(o,A.b7(m,B.a_,B.h,B.i,0),B.n,o,o,B.od,o,o,o,B.fQ,o,o,o),o,!0,o,o,o,o,o,o,o,o,o,new A.ayh(n,a),o,o,o,o,o,o,o)},
 $S:623}
@@ -102361,7 +102361,7 @@ r=A.ix(p,p,B.ib,p,p,p,p,p,p,p,p,p,B.l6,p,new A.cT(A.bx(10),B.q),p,p,p,p,p)
 B.b.J(n,A.a([o,B.L,s,B.L,A.iw(B.a4A,q.a.c.A?p:new A.as3(q),r)],m))}n.push(A.bR(!1,B.a58,p,p,p,p,p,p,new A.as4(q),p,p))
 return A.ae(n,B.r,B.h,B.i)},
 abi(){var s=this,r=null
-return A.ae(A.a([s.A_(s.as,"Current password",!0),s.A_(s.at,"New password",!0),s.Tf("CHANGE PASSWORD",new A.arX(s)),B.L,A.bR(!1,B.a5v,r,r,r,r,r,r,new A.arY(s),r,r)],t.p),B.r,B.h,B.i)}}
+return A.ae(A.a([s.A_(s.as,"Current password",!0),s.A_(s.at,"New password",!0),s.Tf("CHANGE PASSWORD",new A.arX(s)),B.L,A.bR(!1,B.a5w,r,r,r,r,r,r,new A.arY(s),r,r)],t.p),B.r,B.h,B.i)}}
 A.asj.prototype={
 $1(a){var s=this.a
 if(s.c!=null)s.K(new A.asi(s))},
@@ -102390,7 +102390,7 @@ if(i.d)o.push(i.aeu())
 else if(i.e)o.push(i.abi())
 else o.push(i.ajT())
 o.push(B.E)
-if(!i.d&&!i.e){n=A.a([A.bR(!1,B.a5m,m,m,m,m,m,m,new A.asf(i),m,m)],k)
+if(!i.d&&!i.e){n=A.a([A.bR(!1,B.a5n,m,m,m,m,m,m,new A.asf(i),m,m)],k)
 if(i.a.c.d!=null)n.push(A.bR(!1,B.a4Z,m,m,m,m,m,m,new A.asg(i),m,m))
 B.b.J(o,n)}return A.lA(new A.dH(new A.a7(0,1/0,b.d,1/0),A.ae(A.a([A.ae(A.a([new A.as(new A.a5(16,l.r.b+8,16,0),j,m),B.ZT,A.dX(new A.dH(B.Es,new A.as(B.Lu,A.bG(m,new A.as(B.fR,A.ae(o,B.r,B.h,B.i),m),B.n,m,m,new A.bf(s,m,q,r,p,m,B.G),m,m,m,m,m,m,m),m),m),m,m),B.dy],k),B.r,B.h,B.i),A.ae(A.a([B.GK,B.E,new A.as(B.Lq,new A.aK(1/0,m,A.iw(B.a5E,new A.ash(i,a),A.ix(m,m,B.aU,m,m,m,m,m,m,B.dR,m,m,B.iw,m,m,m,m,m,m,m)),m),m)],k),B.r,B.h,B.i)],k),B.r,B.hf,B.i),m),m,m)},
 $S:627}
@@ -102464,7 +102464,7 @@ return A.p($async$$0,r)},
 $S:3}
 A.asb.prototype={
 $1(a){var s=null
-return A.hD(A.a([A.bR(!1,B.a51,s,s,s,s,s,s,new A.as9(a),s,s),A.bR(!1,B.a5s,s,s,s,s,s,s,new A.asa(a),s,s)],t.p),B.a5M,s,s,B.a61,s)},
+return A.hD(A.a([A.bR(!1,B.a51,s,s,s,s,s,s,new A.as9(a),s,s),A.bR(!1,B.a5t,s,s,s,s,s,s,new A.asa(a),s,s)],t.p),B.a5M,s,s,B.a61,s)},
 $S:29}
 A.as9.prototype={
 $0(){A.c7(this.a,!1).cq(!1)
@@ -102800,7 +102800,7 @@ case 6:case 1:return A.o(q,r)
 case 2:return A.n(o.at(-1),r)}})
 return A.p($async$kI,r)},
 H(a){var s=this,r=null,q=A.M("Send a message",r,r,r,r,A.dh().$3$color$fontSize$fontWeight(B.a2,16,B.J),r,r,r),p=A.ef(r,B.ai,!1,r,!0,B.z,r,A.ew(),s.d,r,r,r,r,r,2,B.NK,B.A,!0,r,!0,r,!1,r,B.ak,r,r,r,r,r,r,r,r,r,5,3,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.aA,r,r,r,r,r,r,r,r,r,r,r,r,!0,B.a6,r,B.a_s,r,r,r,r),o=s.e?r:s.gIE(),n=A.ix(r,r,B.aU,r,r,r,r,r,r,B.dR,r,r,B.iw,r,r,r,r,r,r,r)
-return A.ae(A.a([q,B.aX,B.a5f,B.L,p,B.bp,A.iw(A.M(s.e?"SENDING\u2026":"SEND MESSAGE",r,r,r,r,B.nj,r,r,r),o,n)],t.p),B.r,B.h,B.i)}}
+return A.ae(A.a([q,B.aX,B.a5g,B.L,p,B.bp,A.iw(A.M(s.e?"SENDING\u2026":"SEND MESSAGE",r,r,r,r,B.nj,r,r,r),o,n)],t.p),B.r,B.h,B.i)}}
 A.aCb.prototype={
 $0(){return this.a.e=!0},
 $S:0}
@@ -103069,7 +103069,7 @@ if(a6.a.c.d==null){n=s?2:10
 g=s?3:8
 f=A.bx(10)
 c=A.a([B.a52],l)
-if(!s)c.push(B.a5y)
+if(!s)c.push(B.a5z)
 a3=new A.as(new A.a5(0,n,0,0),A.hf(A.bG(a7,A.ae(c,B.o,B.h,B.i),B.n,a7,a7,new A.bf(B.HB,a7,a7,f,a7,a7,B.G),a7,a7,a7,new A.a5(10,g,10,g),a7,a7,1/0),a7,a7,B.JY,B.K),a7)}else a3=B.as
 a4=a6.goM()?B.Jy:B.as
 if(s)a8=4
@@ -103096,7 +103096,7 @@ else if(m<80)j=80
 else j=m>108?108:m
 n[l]=new A.as(B.dl,new A.Fc(k,new A.azp(c,l),j,b),b)}s=A.b7(n,B.o,B.ck,B.i,0)
 r=t.p
-m=A.b7(A.a([B.M7,A.bR(!1,B.a5w,b,b,b,b,b,b,c.gaaf(),b,A.xa(b,b,b,b,b,b,b,b,b,b,b,B.K,B.Ld,b,b,b,b,B.dr,b,b))],r),B.o,B.h,B.i,0)
+m=A.b7(A.a([B.M7,A.bR(!1,B.a5x,b,b,b,b,b,b,c.gaaf(),b,A.xa(b,b,b,b,b,b,b,b,b,b,b,B.K,B.Ld,b,b,b,b,B.dr,b,b))],r),B.o,B.h,B.i,0)
 k=A.dh().$2$fontSize$fontWeight(22,B.J)
 j=A.db(b,b,B.kx,b,b,b,b,b,b,b,b,b,b,b,b,b,b,!0,b,b,b,b,b,b,b,b)
 k=A.ef(b,B.ai,!1,b,!0,B.z,b,A.ew(),c.Q,b,b,b,b,b,2,A.rk(b,new A.fb(4,A.bx(12),B.o6),b,B.eF,b,b,"",b,!0,b,b,b,b,b,b,B.j,!0,b,b,b,b,b,b,b,b,b,b,b,b,b,j,"000",b,b,b,b,b,!0,b,b,b,!0,!0,b,b,b,b,b,b,b,b,b,b,b,b,b,b),B.A,!0,b,!0,b,!1,b,B.ak,b,b,b,b,b,B.bC,b,3,b,1,b,b,!1,"\u2022",b,c.galc(),b,b,b,!1,b,b,!1,b,!0,b,B.aA,b,b,b,b,b,b,b,b,b,b,b,k,!0,B.at,b,B.aM,b,b,b,b)
@@ -108690,8 +108690,8 @@ B.a8J=new A.ie(0.925,0.5)
 B.a8D=new A.ie(0.9625,0.75)
 B.a8E=new A.ie(1,1)
 B.PA=s([B.a8C,B.a8H,B.a8K,B.a8M,B.a8I,B.a8G,B.a8F,B.a8L,B.a8J,B.a8D,B.a8E],A.aH("G<ie>"))
-B.a5p=new A.a4("Approved",null,null,null,null,null,null,null,null,null,null)
-B.Kq=new A.ct("approved",B.a5p,B.aJ,null,t.Q)
+B.a5q=new A.a4("Approved",null,null,null,null,null,null,null,null,null,null)
+B.Kq=new A.ct("approved",B.a5q,B.aJ,null,t.Q)
 B.PB=s([B.pT,B.pS,B.Kq,B.pU],t.FG)
 B.hG=new A.nn(0,"left")
 B.na=new A.nn(1,"right")
@@ -108729,10 +108729,10 @@ B.a4V=new A.a4("Bets",null,null,null,null,null,null,null,null,null,null)
 B.Kw=new A.ct("bet",B.a4V,B.aJ,null,t.Q)
 B.a56=new A.a4("Win payouts",null,null,null,null,null,null,null,null,null,null)
 B.Kx=new A.ct("win",B.a56,B.aJ,null,t.Q)
-B.a5k=new A.a4("Loans",null,null,null,null,null,null,null,null,null,null)
-B.Kk=new A.ct("loan",B.a5k,B.aJ,null,t.Q)
-B.a5u=new A.a4("Credits",null,null,null,null,null,null,null,null,null,null)
-B.Ks=new A.ct("adjustment",B.a5u,B.aJ,null,t.Q)
+B.a5l=new A.a4("Loans",null,null,null,null,null,null,null,null,null,null)
+B.Kk=new A.ct("loan",B.a5l,B.aJ,null,t.Q)
+B.a5v=new A.a4("Credits",null,null,null,null,null,null,null,null,null,null)
+B.Ks=new A.ct("adjustment",B.a5v,B.aJ,null,t.Q)
 B.PL=s([B.Kv,B.Kw,B.Kx,B.Kk,B.Ks],t.FG)
 B.Id=new A.m(1,1,0.47843137254901963,0.5490196078431373,B.e)
 B.IT=new A.m(1,0.8980392156862745,0.19607843137254902,0.29411764705882354,B.e)
@@ -108749,8 +108749,8 @@ B.cI=new A.lN(2,"deleteIcon")
 B.PW=s([B.bP,B.bs,B.cI],A.aH("G<lN>"))
 B.dn=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
 B.iX=s([10,20,50,100,200,500,1000],t.t)
-B.a5l=new A.a4("All time",null,null,null,null,null,null,null,null,null,null)
-B.Kl=new A.ct("all",B.a5l,B.aJ,null,t.Q)
+B.a5m=new A.a4("All time",null,null,null,null,null,null,null,null,null,null)
+B.Kl=new A.ct("all",B.a5m,B.aJ,null,t.Q)
 B.a4E=new A.a4("Today",null,null,null,null,null,null,null,null,null,null)
 B.Kn=new A.ct("today",B.a4E,B.aJ,null,t.Q)
 B.a69=new A.a4("Last 7 days",null,null,null,null,null,null,null,null,null,null)
@@ -108787,8 +108787,8 @@ B.oZ=new A.m(0.09803921568627451,0,0,0,B.e)
 B.EV=new A.bj(0.2,B.E1,B.oZ,B.k,11)
 B.Qh=s([B.EV],t.V)
 B.Qi=s(["Roboto"],t.s)
-B.a5j=new A.a4("Neon Cyan",null,null,null,null,null,null,null,null,null,null)
-B.Km=new A.ct("cyan",B.a5j,B.aJ,null,t.Q)
+B.a5k=new A.a4("Neon Cyan",null,null,null,null,null,null,null,null,null,null)
+B.Km=new A.ct("cyan",B.a5k,B.aJ,null,t.Q)
 B.a6e=new A.a4("Royal Gold",null,null,null,null,null,null,null,null,null,null)
 B.Kr=new A.ct("gold",B.a6e,B.aJ,null,t.Q)
 B.a6d=new A.a4("Neon Purple",null,null,null,null,null,null,null,null,null,null)
@@ -110023,8 +110023,8 @@ B.a5Q=new A.a4("Loading facilities\u2026",null,B.a4,null,null,null,null,null,nul
 B.UO=new A.as(B.fQ,B.a5Q,null)
 B.a4U=new A.a4("Automatic mode is on \u2014 manual controls are off. Turn automatic off to declare a winner.",null,B.a4,null,null,null,null,null,null,null,null)
 B.xK=new A.as(B.eE,B.a4U,null)
-B.a5o=new A.a4(u.H,null,B.fh,null,null,null,null,null,null,null,null)
-B.UP=new A.as(B.eE,B.a5o,null)
+B.a5p=new A.a4(u.H,null,B.fh,null,null,null,null,null,null,null,null)
+B.UP=new A.as(B.eE,B.a5p,null)
 B.a5Z=new A.a4("Automatic mode is on \u2014 Draw Now is off. Turn automatic off to draw manually.",null,B.a4,null,null,null,null,null,null,null,null)
 B.UQ=new A.as(B.eE,B.a5Z,null)
 B.L3=new A.a5(0,0,0,6)
@@ -110102,8 +110102,8 @@ B.VQ=new A.wa(3,"scale")
 B.VR=new A.wa(4,"unknown")
 B.a6j=new A.a4("Reset password",null,null,null,null,null,null,null,null,null,null)
 B.VS=new A.t4("reset",B.a6j,null,t.wI)
-B.a5A=new A.a4("Lenden",null,null,null,null,null,null,null,null,null,null)
-B.VT=new A.t4("lenden",B.a5A,null,t.wI)
+B.a5f=new A.a4("Transaction",null,null,null,null,null,null,null,null,null,null)
+B.VT=new A.t4("lenden",B.a5f,null,t.wI)
 B.a5G=new A.a4("Delete account",null,null,null,null,null,null,null,null,null,null)
 B.VU=new A.t4("delete",B.a5G,null,t.wI)
 B.VV=new A.we(null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -110906,28 +110906,28 @@ B.a5a=new A.a4("SIGN IN",null,B.nk,null,null,null,null,null,null,null,null)
 B.a5c=new A.a4("Or set a specific winner number:",null,B.aj,null,null,null,null,null,null,null,null)
 B.a5d=new A.a4("Assign access permissions using a role; this creates a staff login.",null,B.a4,null,null,null,null,null,null,null,null)
 B.a5e=new A.a4("Assign a role to each account, then save.",null,B.a4,null,null,null,null,null,null,null,null)
-B.a5f=new A.a4("Write a message for the Super Admin. Your name and mobile number from above will be sent with it \u2014 leave them empty to send as Guest.",null,B.a4,null,null,null,null,null,null,null,null)
+B.a5g=new A.a4("Write a message for the Super Admin. Your name and mobile number from above will be sent with it \u2014 leave them empty to send as Guest.",null,B.a4,null,null,null,null,null,null,null,null)
 B.a1j=new A.w(!0,null,null,null,null,null,16,B.aB,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a5g=new A.a4("Users in this role",null,B.a1j,null,null,null,null,null,null,null,null)
-B.a5h=new A.a4("CANCEL",null,null,null,null,null,null,null,null,null,null)
-B.a5i=new A.a4("Read",null,B.eg,null,null,null,null,null,null,null,null)
+B.a5h=new A.a4("Users in this role",null,B.a1j,null,null,null,null,null,null,null,null)
+B.a5i=new A.a4("CANCEL",null,null,null,null,null,null,null,null,null,null)
+B.a5j=new A.a4("Read",null,B.eg,null,null,null,null,null,null,null,null)
 B.a2X=new A.w(!0,B.ib,null,null,null,null,15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a5m=new A.a4("Forgot password?",null,B.a2X,null,null,null,null,null,null,null,null)
-B.a5n=new A.a4("Stake, payout and ticket counts show your tickets only.",null,B.a4,null,null,null,null,null,null,null,null)
-B.a5q=new A.a4("Change your own password. New password must be at least 8 characters and contain at least one letter and one number.",null,B.a4,null,null,null,null,null,null,null,null)
+B.a5n=new A.a4("Forgot password?",null,B.a2X,null,null,null,null,null,null,null,null)
+B.a5o=new A.a4("Stake, payout and ticket counts show your tickets only.",null,B.a4,null,null,null,null,null,null,null,null)
+B.a5r=new A.a4("Change your own password. New password must be at least 8 characters and contain at least one letter and one number.",null,B.a4,null,null,null,null,null,null,null,null)
 B.a2U=new A.w(!0,null,null,null,null,null,12,B.J,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a5r=new A.a4("GAME CURRENCY \u2014 Super Admin only",null,B.a2U,null,null,null,null,null,null,null,null)
-B.a5s=new A.a4("Enable",null,B.aj,null,null,null,null,null,null,null,null)
-B.a5t=new A.a4("One batch = one game window. When a game ends, the next starts after the gap below.",null,B.a4,null,null,null,null,null,null,null,null)
-B.a5v=new A.a4("\u2190 Back",null,B.jN,null,null,null,null,null,null,null,null)
+B.a5s=new A.a4("GAME CURRENCY \u2014 Super Admin only",null,B.a2U,null,null,null,null,null,null,null,null)
+B.a5t=new A.a4("Enable",null,B.aj,null,null,null,null,null,null,null,null)
+B.a5u=new A.a4("One batch = one game window. When a game ends, the next starts after the gap below.",null,B.a4,null,null,null,null,null,null,null,null)
+B.a5w=new A.a4("\u2190 Back",null,B.jN,null,null,null,null,null,null,null,null)
 B.a0V=new A.w(!0,B.aU,null,null,null,null,null,B.bJ,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a5w=new A.a4("ADD +",null,B.a0V,null,null,null,null,null,null,null,null)
+B.a5x=new A.a4("ADD +",null,B.a0V,null,null,null,null,null,null,null,null)
 B.D1=new A.a4("SEARCH",null,null,null,null,null,null,null,null,null,null)
-B.a5x=new A.a4("CLEAR",null,null,null,null,null,null,null,null,null,null)
+B.a5y=new A.a4("CLEAR",null,null,null,null,null,null,null,null,null,null)
 B.IO=new A.m(1,0.6274509803921569,0.2901960784313726,0.25882352941176473,B.e)
 B.a2M=new A.w(!0,B.IO,null,null,null,null,12,B.cX,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a5y=new A.a4("Please sign in to place a bet",null,B.a2M,B.at,null,null,null,null,null,null,null)
-B.a5z=new A.a4("Players who asked for an agent from the Find an Agent sheet.",null,B.a4,null,null,null,null,null,null,null,null)
+B.a5z=new A.a4("Please sign in to place a bet",null,B.a2M,B.at,null,null,null,null,null,null,null)
+B.a5A=new A.a4("Players who asked for an agent from the Find an Agent sheet.",null,B.a4,null,null,null,null,null,null,null,null)
 B.a5B=new A.a4("The app header reads these values as soon as you save.",null,B.a4,null,null,null,null,null,null,null,null)
 B.a5C=new A.a4("Use your email or username and password.",null,B.CW,null,null,null,null,null,null,null,null)
 B.a5D=new A.a4("Did a user win? Search by username or Transaction ID",null,B.aj,null,null,null,null,null,null,null,null)
